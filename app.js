@@ -8,7 +8,7 @@ require('dotenv').config();
 
 //Connect to database
 try {
-  mongoose.connect("mongodb+srv://lrk2529:zxcvb12345!@cluster0.qdpft.mongodb.net/usersdb", {
+  mongoose.connect("mongodb+srv://username:password@cluster0.qdpft.mongodb.net/usersdb", {
     useUnifiedTopology: true,
     useNewUrlParser: true
   });
